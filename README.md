@@ -4,6 +4,28 @@ Dieses Repository stellt ein **Typst-Template** für Abschlussarbeiten im Fachge
 
 ## Verwendung
 
+### 1. Repository klonen
+
+    git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+
+### 2. Projekt öffnen
+
+Du kannst das Projekt entweder in:
+- VS Code  
+- oder direkt in https://typst.app  
+
+öffnen.
+
+### 3. Vorschau in VS Code
+
+Wenn du VS Code verwendest:
+
+1. Installiere die **tinymist Typst Extension**
+2. Öffne die Datei `main.typ`
+3. Klicke oben rechts auf **Preview**, um eine Live-Vorschau deiner Arbeit zu sehen
+
+### 4. Layout anpassen
+
 Das Layout kann direkt in der Datei `main.typ` angepasst werden. Dort lässt sich unkompliziert zwischen ein- und zweispaltigem Format wechseln.
 
 ## Sprache anpassen
