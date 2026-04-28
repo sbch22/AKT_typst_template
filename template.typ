@@ -15,7 +15,7 @@
   names: "",
   shorttitle: "",
   supervisor: "",
-  doctype: "Master Thesis",
+  doctype: "Masterarbeit",
   date: datetime.today().display("[day].[month].[year]"),
   abstract-de: [],
   abstract-en: [],
@@ -79,8 +79,8 @@
     date: date,
   )
 
-  // ============= FRONT MATTER (Numerierung i, ii, …) =============
-  set page(numbering: "i")
+  // ============= FRONT MATTER (Numerierung I, II, …) =============
+  set page(numbering: "I")
   counter(page).update(2)
 
   if abstract-de != [] {
