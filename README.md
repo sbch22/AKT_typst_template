@@ -1,1 +1,1 @@
-Typst Template for Audiocommunications Group at TU Berlin
+Typst Template für Audiokommunikation und -technologie Abschlussarbeiten an der TU Berlin.

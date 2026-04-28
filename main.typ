@@ -104,7 +104,18 @@ $ pi approx 3.14 $
 Um einen Punkt als Dezimaltrennzeichen zu nutzen, wenn z.B. auf Englisch geschrieben wird, einfach die Funktion in der Präambel auskommentieren.
 
 == Grafiken
-#figure(caption: "Abbildungsbeschreibung", image("graphics/THDN.png")) #label("fig:thdn")
+#figure(caption: "Abbildungsbeschreibung in text", image("graphics/THDN.png")) #label("fig:thdn")
+
+
+
+== "\textwidth" Grafiken
+
+#place(
+  top + center,
+  scope: "parent",
+  float: true,
+  figure(caption: "Abbildungsbeschreibung für volle textwidth", image("graphics/THDN.png"))
+)#label("fig:thdn_full_width")
 
 
 == Tabellen
