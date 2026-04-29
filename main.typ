@@ -33,7 +33,7 @@
   ],
 
 
-  cols: 2,        // 1 = Thesis (mit TOC), 2 = Paper (ohne TOC)
+  cols: 1,        // 1 = Thesis (mit TOC), 2 = Paper (ohne TOC)
   col-gutter: 2.5em,
 )
 
@@ -108,7 +108,6 @@ Um einen Punkt als Dezimaltrennzeichen zu nutzen, wenn z.B. auf Englisch geschri
 
 
 
-== "\textwidth" Grafiken
 
 #place(
   top + center,
